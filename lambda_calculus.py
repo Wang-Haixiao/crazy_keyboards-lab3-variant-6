@@ -151,7 +151,8 @@ def func_multiply(m: Abstraction, n: Abstraction) -> Abstraction:
     return Abstraction('f', Combination(m, Combination(n, Variable('f'))))
 
 
-def calculus(lam: Union[Abstraction, Combination]) -> Union[Abstraction, Combination]:
+def calculus(lam: Union[Abstraction, Combination]) -> \
+        Union[Abstraction, Combination]:
     print('-----------------------------------')
     while True:
         print(lam)
