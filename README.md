@@ -20,14 +20,20 @@ and should check the implementation correctly works with None value.
 ## Features
 
 Unit test:
-- `test_and`
-- `test_or`
-- `test_not`
-- `test_succ`
-- `test_pred`
-- `test_plus`
-- `test_multiply`
 
+- `test_and`
+
+- `test_or`
+
+- `test_not`
+
+- `test_succ`
+
+- `test_pred`
+
+- `test_plus`
+
+- `test_multiply`
 
 ## Contribution
 
