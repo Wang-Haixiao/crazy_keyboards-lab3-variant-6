@@ -1,6 +1,8 @@
 import unittest
 
-from lambda_calculus import *
+from lambda_calculus import TRUE, FALSE, func_and, func_or, func_not
+from lambda_calculus import func_numbers, func_succ, func_pred, func_plus
+from lambda_calculus import func_multiply, calculus
 
 
 class TestLambdaCalculus(unittest.TestCase):
