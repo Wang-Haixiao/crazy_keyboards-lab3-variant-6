@@ -111,11 +111,13 @@ def func_not(m: Abstraction) -> Combination:
     return Combination(Combination(m, FALSE), TRUE)
 
 
-def number_n(n: int) -> Union[Combination, Variable]:
+def number_n(n: int) -> Union[Combination, Variable, None]:
     if n > 0:
         return Combination(Variable('f'), number_n(n - 1))
     elif n == 0:
         return Variable('x')
+    else:
+        return None
 
 
 def func_numbers(n: int) -> Abstraction:
