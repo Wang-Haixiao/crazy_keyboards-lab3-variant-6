@@ -125,21 +125,25 @@ def func_numbers(n: int) -> Abstraction:
 
 def func_succ(n: Abstraction) -> Abstraction:
     """n++"""
-    return Abstraction('f', Abstraction('x', Combination(Variable('f'), Combination(
-        Combination(n, Variable('f')), Variable('x')))))
+    return Abstraction('f', Abstraction('x', Combination(
+        Variable('f'), Combination(Combination(
+            n, Variable('f')), Variable('x')))))
 
 
 def func_pred(n: Abstraction) -> Abstraction:
     """n--"""
-    return Abstraction('f', Abstraction('x', Combination(Combination(
-        Combination(n, Abstraction('g', Abstraction('h', Combination(Variable('h'), Combination(
-            Variable('g'), Variable('f')))))), Abstraction('u', Variable('x'))), Abstraction('u', Variable('u')))))
+    return Abstraction('f', Abstraction('x', Combination(
+        Combination(Combination(n, Abstraction('g', Abstraction(
+            'h', Combination(Variable('h'), Combination(Variable(
+                'g'), Variable('f')))))), Abstraction(
+            'u', Variable('x'))), Abstraction('u', Variable('u')))))
 
 
 def func_plus(m: Abstraction, n: Abstraction) -> Abstraction:
     """m + n"""
-    return Abstraction('f', Abstraction('x', Combination(Combination(m, Variable('f')),
-                                                         Combination(Combination(n, Variable('f')), Variable('x')))))
+    return Abstraction('f', Abstraction('x', Combination(
+        Combination(m, Variable('f')), Combination(Combination(
+            n, Variable('f')), Variable('x')))))
 
 
 def func_multiply(m: Abstraction, n: Abstraction) -> Abstraction:
