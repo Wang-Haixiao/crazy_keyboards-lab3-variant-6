@@ -39,7 +39,7 @@ Unit test:
 
 - True & True = True
 
-  ![](https://github.com/Wang-Haixiao/crazy_keyboards-lab3-variant-6/blob/master/Img/01.png)
+  ![](https://github.com/Wang-Haixiao/crazy_keyboards-lab3-variant-6/braw/master/Img/01.png)
 
 - True & False = False
 
