@@ -35,6 +35,56 @@ Unit test:
 
 - `test_multiply`
 
+## Visualisation
+
+- True & True = True
+
+  ![](/Img/01.png)
+
+- True & False = False
+
+  ![](/Img/02.png)
+
+- False & False = False
+
+  ![](/Img/03.png)
+
+- True or True = True
+
+  ![](/Img/04.png)
+
+- True or False = True
+
+  ![](/Img/05.png)
+
+- False or False = False
+
+  ![](/Img/06.png)
+
+- not True = False
+
+  ![](/Img/07.png)
+
+- not False = True
+
+  ![](/Img/08.png)
+
+- 2 + 1 = 3
+
+  ![](/Img/09.png)
+
+- 2 - 1  = 1
+
+  ![](/Img/10.png)
+
+- 2 + 3 = 5
+
+  ![](/Img/11.png)
+
+- 2 * 3 = 6
+
+  ![](/Img/12.png)
+
 ## Contribution
 
 - Haixiao Wang -- source part and upload the files to github
