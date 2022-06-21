@@ -93,6 +93,8 @@ Unit test:
 
 ## Changelog
 
+- 21.06.2022 - 2
+  - Add visualisation to readme
 - 19.06.2022 - 1
   - Update README. Add formal sections.
   - Fixed some formatting issues
